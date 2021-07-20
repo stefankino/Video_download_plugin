@@ -11,7 +11,7 @@ var allText = document.body.innerHTML.toString();
 var videoExtensionList = [
   "3g2", "3gp", "3gpp", "asf", "avi", "divx", "f4v", "flv", "h264", "ifo",
   "m2ts", "m4v", "mkv", "mod", "mov", "mp4", "mpeg", "mpg", "mswmm", "mts",
-  "mxf", "ogv", "rm", "swf", "ts", "vep", "vob", "webm", "wlmp", "wmv"
+  "mxf", "ogv", "rm", "swf", "ts", "vep", "vob", "webm", "wlmp", "wmv","mp3"
 ];
 var videoExtensionsAsRegex = videoExtensionList.join('|');
 
